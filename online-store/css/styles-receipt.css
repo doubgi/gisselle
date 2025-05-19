@@ -1,0 +1,148 @@
+/* Rodrigo Barba - Shinia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,500&family=Roboto:wght@500&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+/* Colors */
+:root {
+    --honeydew: #E4F4E7ff;
+    --turquoise: #73D0AEff;
+    --honeydew-2: #ECF4E7ff;
+    --white: #FEFEFEff;
+    --turquoise-2: rgb(144, 217, 190);
+}
+
+/* End - Colors */
+
+/* Basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* End - Basic */
+
+/* Tools */
+.neo-md {
+    border-radius: 50px;
+    background: #dedede;
+    box-shadow: 20px 20px 60px #bdbdbd,
+        -20px -20px 60px #ffffff;
+}
+
+.rounded-md {
+    border-radius: 15px;
+}
+
+.border-top {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.border-bottom {
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* End - Tools */
+
+/* Body */
+.body-custom {
+    width: 100%;
+    height: 100vh;
+
+    font-family: Tilt Neon;
+    font-weight: bolder;
+    background: linear-gradient(0deg, #aaffb8 0%, #ffffff 100%);
+}
+
+.receipt-custom {
+    width: 50%;
+    height: 75%;
+
+    background-color: white;
+}
+
+.header-receipt {
+    width: 100%;
+    height: 8%;
+
+    text-align: right;
+    background-color: var(--turquoise);
+}
+
+.header-receipt p {
+    margin-top: 5px;
+    margin-right: 20px;
+
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+.subheader-receipt {
+    padding-top: 12px;
+    width: 100%;
+    height: 28%;
+
+    color: white;
+    text-align: center;
+    background-color: var(--turquoise-2);
+}
+
+.subheader-receipt span {
+    color: black;
+}
+
+.subheader-receipt .row-1 {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.subheader-receipt .row-2 {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.product-list {
+    height: 62%;
+    overflow-y: scroll;
+}
+
+.footer-receipt {
+    width: 100%;
+    height: 10%;
+
+    text-align: center;
+    background-color: var(--turquoise);
+}
+
+#footer-left p {
+    margin-top: 10px;
+    margin-left: 20px;
+
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+#footer-middle p {
+    margin-top: 10px;
+
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+#footer-middle i {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#footer-right p {
+    margin-top: 10px;
+    margin-right: 20px;
+
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+/* End - Body */

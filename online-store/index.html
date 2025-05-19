@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles-index.css" />
+    <script src="https://kit.fontawesome.com/8562bd2fa0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://webstockreview.net/images/twitter-verified-png.png" type="image/png">
+    <title>Flora Vibrante</title>
+</head>
+
+<body class="body-custom">
+    <div class="container mt-3">
+        <h1>Flora Vibrante <i class="fa-solid fa-seedling"></i></h1>
+        <hr>
+        <hr>
+        <div class="row row-1" id="productList">
+            <!-- Productos disponibles. -->
+        </div>
+        <div class="row row-2">
+            <div class="col-md-12 checkout-cart neo-md border-top">
+                <section>
+                    <h1 class="mt-3">Carrito Floral <i class="fa-solid fa-bag-shopping ml-2"></i></i></h1>
+                    <h4>Subtotal: <span id="totalCheckout">0.00</span></h4>
+                    <button class="btn btn-success btn-comprar">Checkout</button>
+                </section>
+                <table class="table table-custom text-center">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Precio Unitario</th>
+                            <th>Precio Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="checkoutCart">
+                        <!-- Productos del carrito. -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script/script-index.js"></script>
+</body>
+
+</html>

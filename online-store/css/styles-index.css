@@ -1,0 +1,103 @@
+/* Rodrigo Barba - Shinia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,500&family=Roboto:wght@500&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+/* Colors */
+:root {
+    --honeydew: #E4F4E7ff;
+    --turquoise: #73D0AEff;
+    --honeydew-2: #ECF4E7ff;
+    --white: #FEFEFEff;
+    --turquoise-2: rgb(144, 217, 190);
+}
+
+/* End - Colors */
+
+/* Basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* End - Basic */
+
+/* Tools */
+.neo-md {
+    border-radius: 50px;
+    background: #dedede;
+    box-shadow: 20px 20px 60px #bdbdbd,
+        -20px -20px 60px #ffffff;
+}
+
+.rounded-md {
+    border-radius: 15px;
+}
+
+.border-top {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.border-bottom {
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* End - Tools */
+
+/* Body */
+.body-custom {
+    width: 100%;
+    height: auto;
+
+    font-family: Tilt Neon;
+    font-weight: bolder;
+    background: linear-gradient(0deg, #aaffb8 0%, #ffffff 100%);
+}
+
+.fa-seedling {
+    color: var(--turquoise);
+}
+
+.card-custom {
+
+    background: white;
+}
+
+.card-custom img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.row-2 {
+    width: 100%;
+    height: 45%;
+
+    margin: 0 auto;
+}
+
+.row-2 section {
+    width: 34%;
+    text-align: center;
+}
+
+.row-2 button {
+    width: 100%;
+}
+
+.checkout-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+    background-color: white;
+
+}
+
+.table-custom {
+    margin-top: 20px;
+}
+
+/* End - Body */

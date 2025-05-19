@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recibo de Compra</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a2e0b1d1eb.js" crossorigin="anonymous"></script>
+  <style>
+    /* Ocultar botones al imprimir */
+    @media print {
+      #clear-cart,
+      #print-receipt {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h2 class="mb-4">Detalle del Carrito</h2>
+
+    <!-- Lista de productos -->
+    <div class="list-group mb-4"></div>
+
+    <!-- Pie del recibo -->
+    <div class="d-flex justify-content-between" id="receipt-footer">
+      <div id="footer-left"></div>
+      <div id="footer-right"></div>
+    </div>
+  </div>
+
+  <!-- Tu archivo de script -->
+  <script src="recibo.js"></script>
+</body>
+</html>
